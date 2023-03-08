@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id = "mobile" class = "springdemo.unit.Mobile">
+        <property name="brand" value="iphone6"></property>
+    </bean>
+<!--    <bean id = "mobile1" class = "springdemo.unit.Mobile">-->
+<!--        <property name="brand" value="iphoneX"></property>-->
+<!--    </bean>-->
+<!--    <bean id = "netMan" class = "springdemo.unit.NetMan">-->
+<!--        <property name="mName" value="XiaoMing"></property>-->
+<!--        <property name="mobile" ref="mobile1"></property>-->
+<!--    </bean>-->
+</beans>
